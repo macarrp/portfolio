@@ -1,0 +1,20 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#273108",
+        "titleBar.activeBackground": "#36450B",
+        "titleBar.activeForeground": "#F8FCED"
+    },
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "style": "scss",
+            "externalTemplate": true
+        },
+        "angular-component": {
+            "ngOnInit": true
+        },
+        "angular-page": {
+            "skipNgOnInit": true
+        }
+    },
+    "scss.lint.unknownAtRules": "ignore"
+}
