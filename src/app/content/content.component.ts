@@ -11,8 +11,6 @@ import { ChangeDetectionStrategy, Component, type OnInit } from '@angular/core';
   styleUrl: './content.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ContentComponent implements OnInit {
-
-  ngOnInit(): void { }
+export class ContentComponent {
 
 }
