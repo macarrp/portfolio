@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { version } from '../../../package.json';
 
 @Component({
   selector: 'app-footer',
@@ -15,5 +16,9 @@ export class FooterComponent {
 
   getCurrentYear(): number {
     return new Date().getFullYear();
+  }
+
+  getCurrentVersion(): string {
+    return version.toString();
   }
 }
