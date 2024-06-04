@@ -1,14 +1,14 @@
-<header class="lg:sticky lg:top-0 min-h-[50%] p-4 flex flex-col gap-4 text-lg">
+<header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen min-h-[50%] p-4 flex flex-col gap-4 text-lg">
   <section>
     <img class="w-64 rounded-full shadow-lg transition ease-in-out hover:scale-110 duration-600" 
       src="assets/images/foto_perfil.webp" alt="Foto de perfil"/>
     <h1 class="font-bold mt-2 text-3xl text-alice-blue transition ease-in-out duration-200 hover:text-hunyadi-yellow">
       <a href="/">Marcelo Carro Pacheco</a>
     </h1>
-    <h2 class="text-alice-blue text-xl">Desarrollador Web Full Stack Java & Angular</h2>
+    <h2 class="text-hunyadi-yellow-light text-xl">Desarrollador Web Full Stack Java & Angular</h2>
   </section>
 
-  <section class="flex mb-2">
+  <section class="flex items-center mb-2">
     <a class="mr-4 hover:scale-125 duration-200" [href]="linkLinkedIn" 
       target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (Se abre en una nueva pestaña)">
       <svg-linkedin></svg-linkedin>
@@ -19,10 +19,10 @@
       <svg-github></svg-github>
     </a>
 
-    <!-- <a class="mr-4 hover:scale-125 duration-200" href="" 
-      target="_blank" rel="noreferrer noopener" aria-label="Twitter (Se abre en una nueva pestaña)">
-      <svg-twitter></svg-twitter>
-    </a> -->
+    <a class="mr-4 hover:scale-125 duration-200" [href]="linkEmail" 
+      target="_blank" rel="noreferrer noopener" aria-label="GitHub (Se abre en una nueva pestaña)">
+      <svg-email></svg-email>
+    </a>
   </section>
   
   <nav class="md:block hidden text-slate-200">
