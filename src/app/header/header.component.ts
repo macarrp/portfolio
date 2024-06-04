@@ -14,8 +14,9 @@ import { LinkedinComponent } from '../svg/linkedin/linkedin.component';
   styleUrl: './header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
-  ngOnInit(): void { }
+  linkLinkedIn = 'https://www.linkedin.com/in/marcelo-carro-pacheco/';
+  linkGithub = 'https://github.com/macarrp';
 
 }

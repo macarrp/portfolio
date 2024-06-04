@@ -3,10 +3,11 @@
 }
 
 .line {
-    background: rgb(255, 255, 255);
+    background: white;
     height: 1px;
-    width: 20px;
+    width: 15px;
     margin-right: 10px;
+    margin-top: 5px;
     transition: all .2s ease-in-out;
 }
 
@@ -14,5 +15,6 @@ a:active,
 a:hover {
     .line {
         width: 40px;
+        background: #DBA042ff;
     }
 }
