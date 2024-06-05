@@ -10,17 +10,17 @@
 
   <section class="flex items-center mb-2">
     <a class="mr-4 hover:scale-125 duration-200" [href]="linkLinkedIn" 
-      target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (Se abre en una nueva pestaña)">
+      target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (Se abre en una nueva pestaña)" role="link">
       <svg-linkedin></svg-linkedin>
     </a>
 
     <a class="mr-4 hover:scale-125 duration-200" [href]="linkGithub" 
-      target="_blank" rel="noreferrer noopener" aria-label="GitHub (Se abre en una nueva pestaña)">
+      target="_blank" rel="noreferrer noopener" aria-label="GitHub (Se abre en una nueva pestaña)" role="link">
       <svg-github></svg-github>
     </a>
 
     <a class="mr-4 hover:scale-125 duration-200" [href]="linkEmail" 
-      target="_blank" rel="noreferrer noopener" aria-label="GitHub (Se abre en una nueva pestaña)">
+      target="_blank" rel="noreferrer noopener" aria-label="Email (Se abre en la aplicación de email)" role="link">
       <svg-email></svg-email>
     </a>
   </section>
@@ -28,19 +28,22 @@
   <nav class="md:block hidden text-slate-200">
     <ul>
       <li>
-        <a class="mb-5 flex items-center w-fit hover:text-hunyadi-yellow hover:font-bold duration-100 active" href="#sobre_mi">
+        <a class="mb-5 flex items-center w-fit hover:text-hunyadi-yellow hover:font-bold duration-100 active" href="#sobre_mi" 
+           aria-label="Ir a la sección de Sobre mi">
           <span class="line"></span>
           <span>Sobre mi</span>
         </a>
       </li>
       <li>
-        <a class="mb-5 flex items-center w-fit hover:text-hunyadi-yellow hover:font-bold duration-100" href="#experiencia">
+        <a class="mb-5 flex items-center w-fit hover:text-hunyadi-yellow hover:font-bold duration-100" href="#experiencia"
+        aria-label="Ir a la sección de Experiencia">
           <span class="line"></span>
           <span>Experiencia</span>
         </a>
       </li>
       <li>
-        <a class="mb-5 flex items-center w-fit hover:text-hunyadi-yellow hover:font-bold duration-100" href="#proyectos">
+        <a class="mb-5 flex items-center w-fit hover:text-hunyadi-yellow hover:font-bold duration-100" href="#proyectos"
+          aria-label="Ir a la sección de Proyectos">
           <span class="line"></span>
           <span>Proyectos</span>
         </a>

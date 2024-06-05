@@ -1,3 +1,6 @@
-<footer class="mt-8 pb-16 text-sm text-slate-100 sm:pb-0 flex items-center justify-center">
-  &copy; {{ getCurrentYear() }} Marcelo Carro Pacheco v{{ getCurrentVersion() }}
+<footer class="mt-8 pb-16 text-sm text-slate-100 sm:pb-0 flex items-center justify-center" role="contentinfo">
+  &copy; 
+  <span aria-label="Año actual">{{ getCurrentYear() }}</span> 
+  Marcelo Carro Pacheco v
+  <span aria-label="Versión actual">{{ getCurrentVersion() }}</span>
 </footer>
